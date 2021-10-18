@@ -1,0 +1,48 @@
+<!-- why are you here ? !-->
+<html lang="fr" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="/css/styles-home.css">
+    <script src="/js/index.js"></script>
+    <meta charset="utf-8">
+    <title>SETTINGS | Root-Self</title>
+  </head>
+  <body>
+    <form class="self-page" action="/home/discord/selfbot" method="POST">
+      <button style="text-align:center;"  name="selfbot">SELFBOT</button>
+    </form>
+      <form class="tools-page" action="/home/tools" method="POST">
+      <button style="text-align:center;" name="tools">TOOLS</button>
+        </form>
+        <form class="shop-page" action="/home/shop" method="POST">
+          <button style="text-align:center;" name="shop">SHOP</button>
+          </form>
+          <form class="info-page" action="/home" method="POST">
+            <button style="text-align:center;" name="info">INFO</button>
+            </form>
+            <form class="settings-page" href="/home/settings" method="POST">
+              <button style="text-align:center;" name="settings">SETTINGS</button>
+              </form>
+<box name="middle">
+  <div style="text-align:center;">Settings</div>
+<br>
+<br>
+<!-- settings switch !-->
+<div style="text-align:left;">Selfbot</div>
+<br>
+<input type="checkbox" class="toggle" id="checkbox" checked> Nitro-sniper</input>
+<br>
+<br>
+<input type="checkbox" class="toggle" checked> Selfbot-UI</input>
+<br>
+<br>
+<input type="checkbox" class="toggle" checked> Rien lol</input>
+
+</box>
+
+
+    <box style="text-align:center;" name="profile"><%- username -%></box>
+    <div class="underlay-photo"></div>
+    <div class="underlay-black"></div>
+
+  </body>
+</html>
