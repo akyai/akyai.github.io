@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(39, 41, 52)
+    background-color: rgb(30, 60, 114)
 }
 
 .app .heading {
@@ -13,12 +13,6 @@ body {
 
 .app .heading .title {
     color: white;
-}
-
-.app .heading .avatar {
-    border-radius: 50%;
-    width: 128px;
-    height: 128px;
 }
 
 .button {
