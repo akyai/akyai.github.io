@@ -7,18 +7,18 @@
     <div class="app">
         <div class="heading">
             <h1 class="title">Lofi Radio</h1>
-            <button class="Osu" onclick="clickButton('invite')">Add to Discord</button>
+            <button class="Osu" onclick="clickButton('invite')">Osu</button>
             <p></p>
-            <button class="Discord" onclick="clickButton('support')">Join the support server</button>
+            <button class="Discord" onclick="clickButton('discord')">Join the support server</button>
         </div>
         
     </div>
 
     <script>
-        const invite = "https://discord.com/api/oauth2/authorize?client_id=897445316113100810&permissions=36981760&scope=bot%20applications.commands";
-        const support = "https://discord.gg/ddGPhJg8Uu";
+        var osu = "https://osu.ppy.sh/users/20036118";
+        var discord = "https://discord.gg/ddGPhJg8Uu";
         function clickButton(id) {
-            if(id === "invite"){
+            if(id === "osu"){
                 window.location.href = invite
             } else if(id === "support") {
                 window.location.href = support;
