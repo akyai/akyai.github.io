@@ -1,28 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akyai</title>
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <div class="app">
         <div class="heading">
-            <h1 class="title">Akyai networks</h1>
-            <button class="Osu" onclick="clickButton('Osu')">Osu</button>
+
+            <h1 class="title">akyai'#1111</h1>
+            <button class="button osu" onclick="clickButton('osu')">Osu</button>
             <p></p>
-            <button class="Discord" onclick="clickButton('discord')">Join the support server</button>
+            <button class="button support" onclick="clickButton('github')">Github</button>
         </div>
-        
+
     </div>
 
     <script>
-        var osu = "https://osu.ppy.sh/users/20036118";
-        //var discord = "https://discord.gg/ddGPhJg8Uu";
+        const osu = "https://osu.ppy.sh/users/20036118";
+        const github = "https://github.com/akyai/";
         function clickButton(id) {
             if(id === "osu"){
-                window.location.href = invite
-            } /*else if(id === "discord") {
-                window.location.href = support;
-            }*/
+                window.location.href = osu
+            } else if(id === "github") {
+                window.location.href = github;
+            }
         }
     </script>
 </body>
