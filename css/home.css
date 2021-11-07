@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(30, 60, 114)
+    background-image: url("https://media.discordapp.net/attachments/683946116295032899/906973915543375882/standard_1.gif");
 }
 
 .app .heading {
@@ -13,6 +13,12 @@ body {
 
 .app .heading .title {
     color: white;
+}
+
+.app .heading .avatar {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
 }
 
 .button {
