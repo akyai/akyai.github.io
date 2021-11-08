@@ -14,6 +14,7 @@
             <p></p>
             <button class="button support" onclick="clickButton('github')">Github</button>
             <h1 class="title">Discords</h1>
+               <button class="button bothosting" onclick="clickButton('host')">Bot-hosting</button>
         </div>
 
     </div>
@@ -21,12 +22,18 @@
     <script>
         const osu = "https://osu.ppy.sh/users/20036118";
         const github = "https://github.com/akyai/";
+        const github = "https://discord.gg/hjwwzvGX";
+        
+        
         function clickButton(id) {
             if(id === "osu"){
                 window.location.href = osu
             } else if(id === "github") {
                 window.location.href = github;
+            }else if(id === "host") {
+                window.location.href = host;
             }
+            
         }
     </script>
 </body>
