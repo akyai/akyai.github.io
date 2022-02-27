@@ -10,34 +10,24 @@
         <div class="heading">
 
             <h1 class="title">akyai'#1111</h1>
-            <button class="button osu" onclick="clickButton('osu')">Osu</button>
+            <button class="button osu" onclick="clickButton('https://osu.ppy.sh/users/20036118')">Osu</button>
             <p></p>
-            <button class="button support" onclick="clickButton('github')">Github</button>
+            <button class="button support" onclick="clickButton('https://github.com/akyai/')">Github</button>
             <p></p>
-            <button class="button paypal" onclick="clickButton('paypal')">Paypal :)</button>
-            <h1 class="title">Discords</h1>
-               <button class="button bothosting" onclick="clickButton('host')">Bot-hosting</button>
-              
+            <button class="button paypal" onclick="clickButton('https://paypal.me/akyai')">Paypal :)</button>
+            <h1 class="title">Crypto</h1>
+               <button class="Earnapp" onclick="clickButton('https://earnapp.com/i/t2v2lty')">Earnapp</button>
+             <p></p>
+            <button class="HoneyGain" onclick="clickButton('https://r.honeygain.me/AKYAI989D3')">HoneyGain</button>
+             <p></p>
+              <button class="RollerCoin" onclick="clickButton('https://rollercoin.com/?r=kzk0zamw')">RollerCoin</button>
         </div>
 
     </div>
 
     <script>
-        const osu = "https://osu.ppy.sh/users/20036118";
-        const github = "https://github.com/akyai/";
-        const host = "https://discord.gg/hjwwzvGX";
-        const paypal = "https://paypal.me/akyai";
-        
         function clickButton(id) {
-            if(id === "osu"){
-                window.location.href = osu
-            } else if(id === "github") {
-                window.location.href = github;
-            }else if(id === "host") {
-                window.location.href = host;
-            }else if(id === "paypal") {
-                window.location.href = paypal;
-            }
+           window.location.href = id;
             
         }
     </script>
